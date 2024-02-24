@@ -1,0 +1,2 @@
+#RUN IN COMMAND LINE OF THE PROJECT
+viztracer -o result.html --open main.py

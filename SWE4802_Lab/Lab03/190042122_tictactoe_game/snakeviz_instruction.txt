@@ -1,0 +1,5 @@
+# TO CREATE PROFILE USE THIS IN COMMAND LINE
+python -m cProfile -o snakeviz_log.profile main.py
+
+# TO SEE THE VISUALIZATION
+snakeviz snakeviz_log.profile
