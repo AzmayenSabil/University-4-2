@@ -7,4 +7,38 @@ This attribute has been used by Lee [9] to confirm continuing growth.
 We extended our analysis by using other size indicators. In addition to the size indica-
 tors SLOC, SNOC and LOC used in section 4.2.1, we used the number of operations per class (NOO).
 
-In order to analyze how software quality changes as software evolves, we used the number of reported defects. A higher occurrence of faults is considered as a sign of poor quality. From the curves given in Figure 5 and Figure 6 (increasing complexity), we can clearly observe that the complexity of the two systems increases, according to the three metrics (RFC, WMC and CBO). In fact, an increasing complexity of a software system often symbolizes a decrease in its quality.
+In order to analyze how software quality changes as software evolves, we used the 
+"number of reported defects". 
+A higher occurrence of faults is considered as a sign of poor quality. From the curves given in Figure 5 and Figure 6 (increasing complexity), we can clearly observe that the complexity of the two systems increases, according to the three metrics 
+
+"RFC, WMC and CBO". 
+CBO (Coupling Between Objects):
+WMC (Weighted Methods per Class)
+RFC (Response For a Class)
+
+In fact, an increasing complexity of a software system often symbolizes a decrease in its quality.
+
+
+FROM METRICS DATA, WE WILL TAKE;
+
+FOR GROWTH:
+	files,
+	classes,
+	lines, <-
+	functions,
+	ncloc, <-
+
+FOR QUALITY:
+	major_violations,
+	code_smells,
+	critical_violations,
+	cognitive_complexity,
+	complexity,
+	violations
+	
+
+	
+
+
+
+
