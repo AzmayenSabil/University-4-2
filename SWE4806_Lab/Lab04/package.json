@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@stryker-mutator/core": "^8.2.6",
+    "@stryker-mutator/jest-runner": "^8.2.6"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
