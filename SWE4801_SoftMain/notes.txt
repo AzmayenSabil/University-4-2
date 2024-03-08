@@ -1,0 +1,164 @@
+Software Maintenance is the process of modifying, changing, and updating a software system or module to resolve errors, improve performance, or adapt to a changing environment.
+
+Maintainable software has five characteristics:
+> Analyzability
+> Changeability
+> Stability
+> Testability
+> Compliance
+
+
+There are four different software maintenance types:
+1. Adaptive Maintenance
+2. Perfective Maintenance
+3. Corrective Maintenance
+4. Preventive Maintenance
+
+
+Importance of Software Maintenance:
+To provide continuity of service,
+Bug Fixing,
+To support user requests for improvements,
+To facilitate future maintenance work, 
+Capability Enhancement, 
+Removal of Outdated Functions, 
+Performance Improvement
+
+----------------------------------------------------------------------------
+
+Software Maintenance Framework:
+There are 6 elements of this framework.
+1. User requirements
+	> Progressive work
+	> Anti-regressive work
+2. Organizational Environment
+	> Change in policies
+	> Competition in the marketplace
+3. Operational environment
+	> Hardware innovations
+	> Software innovations
+4. Maintenance process
+	> Capturing change requirements
+	> Variation in programming practice
+	> Paradigm shift
+	> Dead' paradigms for 'living' systems
+	> Error detection and correction
+5. Software product
+	> Maturity and difficulty of the application domain
+	> Quality of the documentation
+	> Malleability of the programs
+	> Inherent quality
+6. Maintenance personnel
+	> Staff turnover
+	> Domain expertise
+	> Working practices
+
+-----------------------------------------------------------------------
+
+Software Evolution Process:
+Phase 1 – Identification
+Phase 2 – Analysis
+Phase 3 - Requirements
+Phase 4 – Design
+Phase 5 – Implementation
+Phase 6 – Testing
+Phase 7 – Delivery
+
+
+Development Process Models:
+1. Code-and-Fix Model
+2. Waterfall Model
+3. Spiral Model
+
+
+Maintenance Process Models:
+1. Quick-Fix Model
+2. Boehm’s Model
+3. Osborne's Model
+4. Iterative Enhancement Model
+5. Reuse-Oriented Model
+
+
+Capability Maturity Model:
+1. Initial
+2. Repeatable
+3. Defined
+4. Managed
+5. Optimising
+
+------------------------------------------------------------------------
+Importance of Program Comprehension
+1. Problem domain
+2. Execution effect
+3. Cause-effect relation
+4. Product environment relation
+5. Decision-support Features
+
+Comprehension Process Models:
+1. Read about the program
+2. Read the source code
+3. Run the program
+
+Mental Models
+Understanding how a system works, the behaviour of different parts, an algorithm, is known as the target system, and its mental representation is called a mental model.
+
+Program Comprehension
+It is the process of reconstructing knowledge and relationship between problem and programming domains.
+
+Program Comprehension Strategies:
+Top-down,
+Bottom-up,
+Opportunistic
+
+Factors that Affect Understanding:
+1. Expertise
+2. Implementation Issues
+3. Documentation
+4. Organisation and Presentation of Programs
+5. Comprehension Support Tools
+
+
+
+------------------------------------------------------------------------
+
+Reverse Engineering:
+The process of analysing a subject system to identify the system's components and their interrelationships and create representations of the system in another form or at higher levels of abstraction.
+
+
+Purpose and Objectives of Reverse Engineering
+1. To recover lost information
+2. To facilitate migration between platforms
+3. To improve or provide documentation
+4. To provide alternative views
+5. To extract reusable components
+6. To cope with complexity
+7. To detect side effects
+8. To reduce maintenance effort
+
+
+Levels of Abstraction:
+The product of a reverse engineering process does not necessarily have to be at a higher level of abstraction. If it is at the same level as the original system, the operation is commonly known as 'redocumentation'.
+
+If on the other hand, the resulting product is at a higher level of abstraction, the operation is known as 'design recovery'.
+
+1. Redocumentation
+2. Design Recovery
+3. Specification Recovery
+
+
+Supporting Techniques:
+1. Forward Engineering
+2. Restructuring
+	> Control-flow-driven restructuring
+	> Efficiency-driven restructuring
+	> Adaption-driven restructuring
+3. Reengineering
+
+
+
+------------------------------------------------------------------------
+
+Targets for Reuse:
+Knowledge that can be reused comes from three main sources: the process, the personnel and the product
+
+Domain Analysis
