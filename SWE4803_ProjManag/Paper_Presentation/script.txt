@@ -1,0 +1,163 @@
+>>>>>>>>>>
+Assalamu alaikum everyone, the topic of our presentation is factors influencing user story estimations, an idustrial intervuiew and conceptual model. 
+>>>>>>>>>>
+and here are the team members. 
+>>>>>>>>>>
+these are the contents that we are going to cover today.
+
+
+>>>>>>>>>>
+So this paper aims to describe user story chrctrtc, reasons why us is inaccurate and a model to know their impact on post release defects. It was conducted through an interview with experienced practitioners in capgemini software development company.
+so the main goal was to investigate the reasons of inaccurate us estimation and find factor that has impact on post release defects, more importantly to lay down a foundation for novel kind of defect predictors.
+
+>>>>>>>>
+so lets talk about the importance of the paper's work.
+we are seeing a shift towards agile methodology now. a report in 2015 showed an increasing rate of successfully resolved 
+project using agile methodology, around 40%.
+In agile process, there is frequent release of well tested software products. so we need some predictive 
+analytical tools to detect defect prone software modules prior to the release so that it is easier to find error if anything goes wrong. the findings of this paper contributes to that too.
+also user story is a big part of agile approach. this paper aims to find out the relation between user story estiamtion 
+and post release defects.
+
+>>>>>>>>
+lets know what user story is, in plain simple language. user stories helps to shift the focus from writing about requirements to talking about them.
+there are few components of US, there is a title, a description of the story, an author and also a group of stakeholders 
+and finally a priority value in the product backlog. 
+and on the right u can see a grouping. basically theme is the root node that holds multiple epics and a epic can contain
+multiple user stories. and a user story can hold to multiple tasks. 
+
+
+>>>>>>>>
+the user stories has to go through a series of process, can be called refinement process.and the phases are;
+first drafting the US,
+establishing agreement with key users, here we seek the sponsors,
+we do prioritization meeting,
+there is also a dedicated refinement meeting,
+then we roughly estimate the US,
+finally the US is used in the planning meeting. 
+
+
+>>>>>>>>>
+we can define estimation outcomes in three groups;
+correct estimation which is accurate with a small margin of error,
+under estimation, when US neeeds more efforts than the set out in the estimation,
+over estiamtion, when US need less efforts than the set out in the estimation
+
+
+>>>>>>>>>
+as it was an survey, the authors of the paper designed two questions that was asked to the practitioners, 
+the first question is '----' and this question initiated q2, which was '....'
+
+>>>>>>>>>>
+and for the participants they chose the participants of agile process and as you can see from the table
+some participants have multiple roles. The authors tried to gather insights from different perspective
+for example, form management pov and also from techinal pov. and all of them
+have long years of experience so that the error in response to the questions is less.
+
+>>>>>>>>
+after the interview process was done, this was the key findings from the survey;
+there are 14 categories that can affect user story estimation 
+(
+1. result category one is incomplete US life cycle, if The key team members don’t acquaint
+themselves with the specification. Often the US are complex and require a broad understanding of
+the underlying business domain, so that without support from the key team members, US may be
+incorrectly estimated during the planning meeting.
+
+2. Human factors always play a crucial role in the agile software projects.
+The product owners responsibilities is to have the vision of what he or she wishes to build, 
+and convey that vision and domain knowledge to the team.
+
+3. Often the US requires integrating with other systems within given company landscape.
+The reason might be the lack of appropriate resources, a slow reaction to changes or limited 
+experience.
+
+4. The lack of knowledge in terms of the
+architectural limits, tools, and frameworks may lead to wrong assumptions and in turn results in a
+wrong estimation.
+
+5. then comes lack of domain knowledge.
+
+6. Developers’ assignment change, sprint interruption, and task switching can be another reason for 
+inaccurate user story estimation.
+
+7. also when a new developer is added to team, if the knowledge transfer isnt properly done, 
+it can affect the timeline.
+
+>>>>>>>>>>
+8. due to certain pressures applied by the management team, a task is underestimated despite the fact that it requires a substantial effort, resulting into wrong estimation.
+
+9. sometimes size of the task can affect the estiamtion.
+
+10. Fewer details may lead to optimistic estimations. more details lead to
+conservative estiamtion.  
+
+11. Both wrong implementation order and incorrectly divided epics lead to bottlenecks
+during the sprint, rework of the US and in turn unplanned tasks during the sprint.
+
+12. If the project consists only of one team,
+then all disturbances and dependencies are managed effectively inside the Scrum team. In the case
+of large projects consisting of several Scrum teams, we have to take into consideration an entirely
+different network of connections and dependencies. and this could sometimes create problem.
+
+13. the safety buffer should be pick in such a way that it doesnt under estimate or over estimate.  
+
+14. In the case of one or more USs-in-sprint being significantly extended,
+another USs may be realised in a way different than predicted during the planning stage. 
+and this is called chain reaction.
+)
+
+
+>>>>
+So this table shows which practitioners chose which categories for inaccurate
+user story estimation. for example, PO1 chose R02, ro3...... and so on.
+
+>>>>
+and this table shows which result category leads to what type of estimation
+outcome.
+
+
+>>>>>>
+top factors that are reason behind the inaccurate estimation;
+the first one is, Incomplete lifecycle of user stories leads to missed details.
+also Domain knowledge gaps contribute to misunderstandings of scope.
+and finally Integration of new team members can disrupt estimation flow.
+
+and the factors that were voted the most by the practitioners;
+rose 5, that got 8 votes,
+ro1 got 7
+ro7 got 8 and 
+ro4 got 7 votes.
+
+>>>>>>>>
+read the slide
+
+>>>>>>>>
+read the slide
+
+>>>>>>>>
+so after all the interview and result analysis, the paper came down to three 
+issue that are the main reasons behind inaccurate estimation.
+management issues, [point explain]
+knowledge issues,
+requirement issues
+
+>>>>>>>
+now we will see the consequences of inaccurate estimation,
+in terms of underestimated us;
+the team is more demotivated and stressed, there are missing requirments and 
+the test cases are not sufficient enough. 
+
+and for overestimated us; its less dangerous, unless the team is fully unaware 
+of what they are dealing with.
+most of the survey shows strong connection between underestinated us and post\
+release defects.
+
+
+>>>>>>>>
+slide
+
+>>>>>>
+slide
+
+
+

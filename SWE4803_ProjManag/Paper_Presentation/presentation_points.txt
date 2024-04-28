@@ -1,0 +1,165 @@
+GREETING:
+So the topic of our presentation is about factors that influence user story estimation and its impact on post 
+release defects of a software. 
+
+INTRO:
+The paper describes user story characteristics, reasons of user story estimation inaccuracy as well as a model 
+of their potential impact on post-release defects for a large IT company. And it was all derived from the conducted 
+interview with practitioners in Capgemini software development company.
+
+GOAL OOF THIS PAPER:
+As we are more moving to the agile methodologies, this requires frequent realease of  fully tested working software.
+
+because In the year 1995 a Group conducted research among IT companies, they found that only 16% of the projects 
+were completed on-time and on-budget. And in 2015 a report showed the increasing rate, near to 40%, of agile 
+projects successfully resolved.
+
+Thats why we need some predictive analytical technique to predict defect prone software modules as there are more 
+release in agile methodologies. and the aim of this paper is to lay down the foundation for the novel kind of 
+defect predictors, based on inaccurate estimations, that could be used to enrich software defect prediction 
+models. Also to fill this gap and to investigate the reasons of inaccurate estimate and impact on 
+post-release defects.
+
+USER STORY:
+Now lets first introduce you what is user story.
+
+US is a high-level definition of a requirement in the business language of the end user. User stories
+are a part of an agile approach which helps to shift the focus from writing about requirements to 
+talking about them.
+
+US are grouped in the epics and themes. Each user story can contain one or more tasks. 
+
+US REFINEMENT PROCESS:
+In enterprise projects, a US is prepared and then 
+implemented in a long process supported by different experts and groups of stakeholders. This is known as,
+Refinement Process and Development.
+
+The phases are:
+> drafting the US,
+> establishing agreements with key users - sponsor seeking, 
+> a prioritisation meeting,
+> a refinement meeting,
+> a rough estimate meeting, an estimation meeting,
+> a planning meeting
+
+All of the parties concerned (stakeholders and the development team) are actively involved 
+in the processes of both developments as well as testing.
+
+ESTIMATING USER STORIES:
+A US receives the estimates from the development team before the sprint during the planning meeting. 
+However due to the technical or business reasons, the estimate may by inaccurate.
+
+1. correct estimate (CE) - when the estimates are accurate or with a small margin of 
+inaccurate estimation.
+2. under estimate (UE) - when US requires more development efforts (over-runs) than set 
+out in the estimate.
+3. over estimate (OE) - when US requires less development efforts (under-runs) than set 
+out in the estimate.
+
+
+SURVEY AND PARTICIPANTS:
+The paper conducted survey which was a face to face as an individually recorded interview among experienced 
+IT professionals.
+
+They asked them two questions:
+Q1. Why user stories are poorly estimated? Every suggested cause of misestimation was 
+further investigated by posing question Q2.
+Q2. What is the impact of the suggested cause of misestimation on the post-release defects?
+
+All of the survey participants have long experience both in agile;
+They tried to get insights from both management perspective, 
+including; 
+Scrum Masters (SM), 
+Project Managers (PM), 
+Product Owners (PO)
+
+Domain specialist;
+Business Architects (BA)
+
+Technical stuffs;
+Developers (SSD), 
+System Architects (SA), 
+Enterprise Architects (EA), 
+Database Administrators (DBA) and 
+Software Testers (ST).
+
+Most of them having long years of experience. 
+
+RESULT CATEGORIES:
+After the survey was done, The answers including the reasons of poor estimations 
+and have been grouped into 14 categories:
+
+R01. Incomplete US life cycle.
+R02. Level of knowledge and the authority of PO.
+R03. Integration and integration testing with external systems.
+R04. Technical problems and technical debt.
+R05. Lack of domain knowledge.
+R06. Developers’ assignment change, sprint interruption and task switching.
+R07. New developers in the team.
+R08. Pressures from the management team.
+R09. Granularity of the tasks.
+R10. Level of US details.
+R11. Incorrect organisation of PB.
+R12. Organisational and coordination problems
+R13. Estimates with/without safety buffer.
+R14. Chain reaction.
+
+----
+
+EXPLANATION OF CATEGORIES AND ESTIAMTION
+
+----
+
+
+
+Reasons of inaccurate estimations:
+
+After the survey they identified three categories for inaccurate estimations;
+
+G1. Management Issues: - the project management team  
+doesn’t plan the human resources with the proper safety buffer, does not prevent task 
+switching and external disturbances.
+G2. Knowledge Issues: the team and more specific PO and Developers, do not have 
+proper technical and domain background.
+G3. Requirements Issues: the US does not contain the mature description, acceptance 
+criteria, test plan or does not have the right priority. Also in the case when the US was 
+not included in the refinement process. 
+
+
+
+
+Consequences of Inaccurate Estimations:
+So the consequences that the inaccurate etimation brings because of underestimated US:
+	Demotivation and stress,
+	Missing requirements,
+	Inappropriate tests
+So the consequences that the inaccurate etimation brings because of overestimated US:
+	Inappropriate tests
+
+
+
+
+Conclusions and further studies:
+so to conlcude, the paper conducted the interview with 12 IT professionals with proven agile expertise. They 
+collected the reasons of inaccurate US estimation, analysed their findings and tried to identify 
+the estimation outcomes on the level of single US. 
+
+thats is all from us. thank u. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
