@@ -1,0 +1,41 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Node Calculator</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+  <form id="calculatorForm">
+    <input type="number" name="num1" required>
+    <input type="number" name="num2" required>
+    <button type="submit">Calculate</button>
+  </form>
+  <div id="result"></div>
+
+  <script>
+    document.getElementById('calculatorForm').addEventListener('submit', async function(event) {
+      event.preventDefault();
+      
+      const formData = new FormData(this);
+      const num1 = formData.get('num1'); // Get value of input with name 'num1'
+      const num2 = formData.get('num2'); // Get value of input with name 'num2'
+
+      console.log(num1, num2);
+
+      const response = await fetch('http://localhost:3000/calculate', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json' // Set content type to JSON
+        },
+        body: JSON.stringify({ num1, num2 }) // Send data as JSON string
+      });
+
+      const data = await response.json();
+      document.getElementById('result').innerText = `Result: ${data.result}`;
+    });
+  </script>
+</body>
+</html>
