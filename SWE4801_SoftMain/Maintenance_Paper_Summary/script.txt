@@ -1,0 +1,46 @@
+Assalamu Alaikum everyone,
+So the topic for our papers was, Automatic Code review. 
+
+These are my team members abir and raiyan. And these are the contents in short that we are going to cover today.
+
+so what dose automatic code review mean, it's a standard development practice that is done using software tools or manually to analyze source code for issues such as bugs, security vulnerabilities, and coding standard violations. The tools are designed to assist human reviewers by flagging potential issues that may require attention. 
+
+and whyy it is important ? It basically helps to maintain software quality. It saves time of the reviewer and it is much more cost efficient too. code review also finds the security vulnerabilities. Resulting in improoving developers productivity. 
+
+This is the traditional aproach for code review. s code first, test them and send them for review. after the review is done it is either marked as eligible for code merge or sent to the developer for improvments.
+
+PAPER 1:
+now lets go through some papers on this topic,
+
+the name of this paper is, "------------". the goal was to identify code changes and recommend improvements in natural language like a human reviewer. this paper used a text to text transformer model called T5 which has 60M parameters. 
+
+and the dataset that was used to pretrtain and finetune the model was from stackoverflow, codesearchnet, github and gerrit. the preprocessed it and splited into training,, evaluation and testing dataset. around 1.5mil data was collected for this work.
+
+the performance value they got was not groundbreaking but it was a step ahead. for the code to code task, it achieved 5% perfect prediction which means it is a mirror image of the original comment by a human. for the code to comment2code it achieved 14 and 12% perfect prediction and for higher beam size it achieved 19%. for comment to code the score is around 3%.
+
+here the t5 model struggle to understand semnatically equivalent comments like, "-----" and "----". as the researcher manually tested that on 300 instances. and they found that T5 marked sommething wrong that was actually eqquivalent to the original output. So this is a place to fill by other researchers. 
+
+
+PAPER 2:
+now for the second paper, the heading is Automating code review activites by  large scale pretraining. So this paper came after the first one and performs better. So the goal was, code change qualityy estimating, generating review comments, and also code refinement suggestions. And here they used a encoder decoder transformer model called CodeReviewer. In the picture u can see the model fulfilling its goal by estiamting quality, suggesting changes and also refining the code. 
+
+as for the dataset, they collected 10000 projects in 9 popular languages with 1500+ pull requests. Here u can see a process of data collection from github.
+
+now about the performance, it outperformmmes baselines with improvement of 7-9%. there review generation has an improvement of 20%. in code refinement their BLEU score is also higher than T5 models.
+
+Here u can see a representation of code review generation. for exampl, T5 generated for the given code "----" and codereviewer generated "---" and the actual one was "----".
+
+So their overall contribution was creating a multilingual dataset and increasing the performance of automatic code review than other baseline models. some threat to validities are, there can be more improovement by tuning the hyper parammeters, their code review is mostlyy from a single reviewer that could create biases, there might be other good indicator than BLEU score in assessing review generation. 
+
+
+PAPER 3:
+the title is, ------ . the goal of this paper is to incorporate code sequence information and logical structure information with the model to improove the performance. this paper took this field another step forward. Here they used two models one for generating graph code sequence from the program dependency graph called PDG2Seq and codeBERT for semantic information,.
+
+And this is the structure of the two models.. left one wth the PDG2seq part and right one wth the algorithm. And rest is an 
+encoder decoder transformer model codeBERT. 
+
+The paper utilizes the dataset that we saw already in the first paper, that was from githuub and gerrit. After some preprocessing they trimmed down to around 16000 instances.
+
+and for the performance as you can see with the extra proogram structure information they were managed to improove their performance than other code review models. the improvements are from 4 to 8% with program structure info and 2-4% without the information. the yellow marked are the highest scorees and all are comingg fromm the mmoodel they proposed. 
+
+so withoutu any doubt they added a new area of concern in this field that is proogram structure dependency that can be more helpful for the models to predict well. and some future scope they suggested are, extendin in multiple language for diverse codebases and working more closely with the code review process considering their granularity. 
