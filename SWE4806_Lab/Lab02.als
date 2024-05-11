@@ -53,11 +53,13 @@ pred ownGrandpa[p: Person] {
 	p in grandpas[p]
 }
 
-run {
-    some p: Person | grandpas[p] in Person
-} for 6 Person, 3 Man, 3 Woman
-run ownGrandpa for 10 Person
-run {} for 6 Person, 3 Man, 3 Woman
+//run {
+//    some p: Person | grandpas[p] in Person
+//} for 10 Person, 6 Man, 4 Woman
+
+//run ownGrandpa for 10 Person
+
+run {} for 10 Person, 5 Man, 5 Woman
 
 
 
